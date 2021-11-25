@@ -1,24 +1,66 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import NavBar from './Components/NavBar';
+import Carousel from './Components/Carousel'
+import Footer from './Components/Footer';
+import CartPage from './Components/CartPage';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import HomeComponent from './Components/HomeComponent';
+import ProductpgS20 from './Components/ProductPage/ProductpgS20';
+import ProductIphone11promax from './Components/ProductPage/ProductIphone11promax';
+import Nokia3320 from './Components/ProductPage/Nokia3320';
+import SamsungNote20Ultra from './Components/ProductPage/SamsungNote20Ultra';
+import SnakeRing from './Components/ProductPage/SnakeRing';
+import SweatShirt from './Components/ProductPage/SweatShirt';
+import UlyssenWatch from './Components/ProductPage/UlyssenWatch';
+import NikeShoes from './Components/ProductPage/NikeShoes';
+import MacBookAir2017 from './Components/ProductPage/MacBookAir2017';
+import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
+import LenovoThinkPad from './Components/ProductPage/LenovoThinkPad';
+import IPhone11black from './Components/ProductPage/IPhone11black';
+import ProductAppareal from './Components/CategoryPages/ProductAppareal';
+import SignUpPage from './Components/SignUpPage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+
+
+      <NavBar />
+      <Switch>
+        <Route exact path="/" component={HomeComponent} />
+        <Route exact path="/S20" component={ProductpgS20} />
+        <Route exact path="/Iphone11pmax" component={ProductIphone11promax} />
+        <Route exact path="/nokia3320" component={Nokia3320} />
+        <Route exact path="/SamsungNote20" component={SamsungNote20Ultra} />
+        <Route exact path="/SnakeRing" component={SnakeRing} />
+        <Route exact path="/SweatShirt" component={SweatShirt} />
+        <Route exact path="/UlyssenWatch" component={UlyssenWatch} />
+        <Route exact path="/Nike" component={NikeShoes} />
+        <Route exact path="/MacBookAir" component={MacBookAir2017} />
+        <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
+        <Route exact path="/Lenovo" component={LenovoThinkPad} />
+        <Route exact path="/Iphone11" component={IPhone11black} />
+        <Route exact path="/productAppareal" component={ProductAppareal} />
+        <Route exact path="/signup" component={SignUpPage} />
+
+
+        <Route exact path="/cart" component={CartPage} />
+
+      </Switch>
+      <Footer />
+
+    </Router>
+
+
+
+
+
   );
 }
 
