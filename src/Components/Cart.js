@@ -14,7 +14,7 @@ export const Cart = () => {
         removeItem,
         emptyCart,
 
-    } = useCart();
+    } = useCart(); 
     if (isEmpty) return <h1 className="text-center">Your Cart is empty</h1>
     return ( 
         <section className="py-4 container col-12" style={{width: '450px'}}>

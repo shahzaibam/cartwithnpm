@@ -6,7 +6,8 @@ const data = {
             title : 'Samsung S20',
             desc : 'Black Samsung S20', 
             price : 899,
-            path : 'S20'
+            path : 'S20',
+            category : 'phone'
         },
  
         {
@@ -15,7 +16,8 @@ const data = {
             title : 'Iphone 11',
             desc : 'Golden Iphone 11', 
             price : 659,
-            path : 'Iphone11pmax'
+            path : 'Iphone11pmax',
+            category : 'phone'
         },
 
         {
@@ -24,7 +26,8 @@ const data = {
             title : 'Nokia 3320',
             desc : 'Nokia 3320 Black', 
             price : 60.95,
-            path : 'nokia3320'
+            path : 'nokia3320',
+            category : 'phone'
         },
 
         
@@ -34,7 +37,8 @@ const data = {
             title : 'Samsung Note 20 Ultra',
             desc : 'Samsung Note 20 Ultra Golden Pink', 
             price : 749,
-            path : 'SamsungNote20'
+            path : 'SamsungNote20',
+            category : 'phone'
         },
 
         {
@@ -113,7 +117,8 @@ const data = {
             title : 'Iphone 11',
             desc : 'Black Iphone 11', 
             price : 749,
-            path : 'Iphone11'
+            path : 'Iphone11',
+            category : 'phone'
         },
 
        

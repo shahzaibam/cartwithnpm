@@ -23,8 +23,8 @@ import MacBookAir2017 from './Components/ProductPage/MacBookAir2017';
 import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
 import LenovoThinkPad from './Components/ProductPage/LenovoThinkPad';
 import IPhone11black from './Components/ProductPage/IPhone11black';
-import ProductAppareal from './Components/CategoryPages/ProductAppareal';
 import SignUpPage from './Components/SignUpPage';
+import TechnologyCategoryRender from './Components/CategoryPages/TechnologyCategoryRender';
 
 function App() {
   return (
@@ -46,7 +46,7 @@ function App() {
         <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
         <Route exact path="/Lenovo" component={LenovoThinkPad} />
         <Route exact path="/Iphone11" component={IPhone11black} />
-        <Route exact path="/productAppareal" component={ProductAppareal} />
+        <Route exact path="/technology" component={TechnologyCategoryRender} />
         <Route exact path="/signup" component={SignUpPage} />
 
 

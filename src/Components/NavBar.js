@@ -27,7 +27,7 @@ export function NavBar() {
                                     Categories
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <Link to="/productAppareal" className="dropdown-item">Appareal & Accessories</Link>
+                                    <Link to="/technology" className="dropdown-item">Technology</Link>
                                     <Link to="/BabyProducts" className="dropdown-item">Baby Products</Link>
                                     <Link to="/Beauty&Health" className="dropdown-item">Beauty & Health</Link>
                                     <Link to="/Electronics" className="dropdown-item">Electronics</Link>

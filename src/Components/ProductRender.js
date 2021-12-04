@@ -2,10 +2,10 @@ import React from 'react'
 import data from './data';
 import Itemcard from './Itemcard';
 import { Link } from 'react-router-dom';
-
+ 
 
 const Home = () => {
-    return ( 
+    return (  
         <>
             <h1 className="text-center mt-3">All Products</h1>
 
