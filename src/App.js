@@ -29,6 +29,9 @@ import BabyProduct_Render from './Components/BabyProductCategory/BabyProduct_Ren
 import BeautyProduct_Render from './Components/Beauty&HealthCategory/BeautyProduct_Render';
 import ElectronicsProduct_Render from './Components/Electronics/ElectronicsProduct_Render';
 import FurnituresProduct_Render from './Components/Furnitures/FurnituresProduct_Render';
+import HomeGardenProduct_Render from './Components/HomeGarden/HomeGardenProduct_Render';
+import LuggageAndBags_Render from './Components/LuggageAndBags/LuggageAndBags_Render';
+import ShoesRender from './Components/Shoes/ShoesRender';
 
 function App() {
   return (
@@ -55,6 +58,9 @@ function App() {
         <Route exact path="/Beauty&Health" component={BeautyProduct_Render} />
         <Route exact path="/Electronics" component={ElectronicsProduct_Render} />
         <Route exact path="/Furnitures" component={FurnituresProduct_Render} />
+        <Route exact path="/Home&Garden" component={HomeGardenProduct_Render} />
+        <Route exact path="/Luggage&Bags" component={LuggageAndBags_Render} />
+        <Route exact path="/Shoes" component={ShoesRender} />
         <Route exact path="/signup" component={SignUpPage} />
 
 
