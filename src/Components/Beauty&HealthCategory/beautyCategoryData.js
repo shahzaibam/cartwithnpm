@@ -1,9 +1,9 @@
-const babycategoryData = {
-    babycategoriesData: [
+const beautycategoryData = {
+    beautycategoriesData: [
 
         {
             id: 1,
-            img: "https://sc04.alicdn.com/kf/H708540fdfa90484f86ab9a043873e629G.jpg",
+            img: "https://s3.images-iherb.com/msc/msc60449/l/48.jpg",
             title : 'Samsung S20',
             desc : 'Black Samsung S20', 
             price : 899,
@@ -95,4 +95,4 @@ const babycategoryData = {
 
 }
 
-export default babycategoryData;
+export default beautycategoryData;

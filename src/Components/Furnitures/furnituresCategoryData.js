@@ -1,15 +1,14 @@
-const babycategoryData = {
-    babycategoriesData: [
+const furnituresCategoryData = {
+    furnituresCategoriesData: [
 
         {
-            id: 1,
-            img: "https://sc04.alicdn.com/kf/H708540fdfa90484f86ab9a043873e629G.jpg",
-            title : 'Samsung S20',
-            desc : 'Black Samsung S20', 
-            price : 899,
-            path : 'S20',
-            category : 'phone'
-        },       
+            id: 10,
+            img: "https://image.made-in-china.com/202f0j10lrSGzsyKELkW/Modern-Luxury-Home-Fabric-Lounge-Living-Room-Furniture-Recliner-Sofa.jpg",
+            title : 'Xiaomi Mi Electric Scooter',
+            desc : 'Xiaomi Mi Electric Scooter Pro 2', 
+            price : 659,
+            path : 'XiaomiScooter'
+        },    
         
         {
             id: 1,
@@ -95,4 +94,4 @@ const babycategoryData = {
 
 }
 
-export default babycategoryData;
+export default furnituresCategoryData;

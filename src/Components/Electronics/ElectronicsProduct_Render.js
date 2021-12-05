@@ -1,21 +1,21 @@
 import React from 'react'
-import Baby_Category from './Baby_Category';
+import Electronics_Category from './Electronics_Category'
 import { Link } from 'react-router-dom';
-import babycategoryData from './babyCategoryData'; 
+import electronicCategoryData from './electronicCategoryData'; 
 
-const BabyProduct_Render = () => {
+const ElectronicsProduct_Render = () => {
     return (    
         <>
-            <h1 className="text-center mt-3">Baby Products</h1>
+            <h1 className="text-center mt-3">Electronics</h1>
 
             <section  style={{margin: '2.5rem'}}>
             
                 <div className="row justify-content-center">
                 
                     {
-                        babycategoryData.babycategoriesData.map((item, index) => {
+                        electronicCategoryData.electronicCategoriesData.map((item, index) => {
                             return (
-                                <Baby_Category 
+                                <Electronics_Category 
                                     img={item.img}
                                     title={item.title}
                                     desc={item.desc}
@@ -36,4 +36,4 @@ const BabyProduct_Render = () => {
     )
 }
 
-export default BabyProduct_Render;
+export default ElectronicsProduct_Render;

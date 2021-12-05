@@ -1,15 +1,14 @@
-const babycategoryData = {
-    babycategoriesData: [
+const electronicCategoryData = {
+    electronicCategoriesData: [
 
         {
-            id: 1,
-            img: "https://sc04.alicdn.com/kf/H708540fdfa90484f86ab9a043873e629G.jpg",
-            title : 'Samsung S20',
-            desc : 'Black Samsung S20', 
-            price : 899,
-            path : 'S20',
-            category : 'phone'
-        },       
+            id: 10,
+            img: "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=1920/https://d1eh9yux7w8iql.cloudfront.net/product_images/None_f130a79e-2477-4328-a59a-459bc2a3065f-thumb.jpg",
+            title : 'Xiaomi Mi Electric Scooter',
+            desc : 'Xiaomi Mi Electric Scooter Pro 2', 
+            price : 659,
+            path : 'XiaomiScooter'
+        },    
         
         {
             id: 1,
@@ -95,4 +94,4 @@ const babycategoryData = {
 
 }
 
-export default babycategoryData;
+export default electronicCategoryData;
