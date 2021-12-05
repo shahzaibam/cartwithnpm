@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import CartPage from './Components/CartPage';
 import {
   BrowserRouter as Router,
-  Switch,
+  Switch, 
   Route,
   Link
 } from "react-router-dom";
@@ -24,7 +24,8 @@ import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
 import LenovoThinkPad from './Components/ProductPage/LenovoThinkPad';
 import IPhone11black from './Components/ProductPage/IPhone11black';
 import SignUpPage from './Components/SignUpPage';
-import TechnologyCategoryRender from './Components/CategoryPages/TechnologyCategoryRender';
+import Product_Render from './Components/PhoneCategory/Product_Render';
+import BabyProduct_Render from './Components/BabyProductCategory/BabyProduct_Render';
 
 function App() {
   return (
@@ -46,7 +47,8 @@ function App() {
         <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
         <Route exact path="/Lenovo" component={LenovoThinkPad} />
         <Route exact path="/Iphone11" component={IPhone11black} />
-        <Route exact path="/technology" component={TechnologyCategoryRender} />
+        <Route exact path="/technology" component={Product_Render} />
+        <Route exact path="/BabyProducts" component={BabyProduct_Render} />
         <Route exact path="/signup" component={SignUpPage} />
 
 

@@ -4,6 +4,7 @@ import Carousel from './Carousel'
 import { CartProvider } from 'react-use-cart';
 import Home from './ProductRender';
 import Cart from './Cart';
+import Product_Render from './PhoneCategory/Product_Render';
 
 
 const HomeComponent = () => {
@@ -13,6 +14,7 @@ const HomeComponent = () => {
             <CartProvider>
             <Home />
             {/*<Cart />*/}
+            <Product_Render/>
           </CartProvider>
         </div>
     )

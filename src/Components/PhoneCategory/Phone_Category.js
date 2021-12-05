@@ -1,12 +1,11 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
 import { Link } from "react-router-dom";
-import '../App.css';
 
-const Itemcard = (props) => {
+const Phone_Category = (props) => {
 
     const { addItem } = useCart();
-
+ 
   
     return ( 
 
@@ -30,4 +29,4 @@ const Itemcard = (props) => {
     )
 }
 
-export default Itemcard;
+export default Phone_Category;

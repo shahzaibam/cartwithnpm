@@ -1,22 +1,23 @@
 import React from 'react'
-import data from './data';
-import Itemcard from './Itemcard';
+import phoneCategoryData from './phoneCategoryData';
+import Phone_Category from './Phone_Category';
 import { Link } from 'react-router-dom';
+import phonecategoryData from './phoneCategoryData';
  
 
-const Home = () => {
-    return (   
+const Product_Render = () => {
+    return (    
         <>
-            <h1 className="text-center mt-3">All Products</h1>
+            <h1 className="text-center mt-3">Phone Category</h1>
 
             <section  style={{margin: '2.5rem'}}>
             
                 <div className="row justify-content-center">
                 
                     {
-                        data.productData.map((item, index) => {
+                        phonecategoryData.phonecategoriesData.map((item, index) => {
                             return (
-                                <Itemcard 
+                                <Phone_Category 
                                     img={item.img}
                                     title={item.title}
                                     desc={item.desc}
@@ -37,4 +38,4 @@ const Home = () => {
     )
 }
 
-export default Home;
+export default Product_Render;

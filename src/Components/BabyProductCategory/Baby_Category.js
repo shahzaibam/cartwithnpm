@@ -1,12 +1,11 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
 import { Link } from "react-router-dom";
-import '../App.css';
 
-const Itemcard = (props) => {
+const Phone_Category = (props) => {
 
     const { addItem } = useCart();
-
+ 
   
     return ( 
 
@@ -20,8 +19,8 @@ const Itemcard = (props) => {
                     <p class="card-text">{props.desc}</p>
                     <Link className="btn btn-danger" style={{ marginRight: '1rem' }} to={`/${props.path}`}>View Product</Link>
                     <button className="btn btn-success ml-3" onClick={
-                        () => alert('product added '+ addItem(props.item)) 
-                    } >Add to cart</button>
+                        () => addItem(props.item)
+                    }>Add to cart</button>
                 </div>
             </div>
             
@@ -30,4 +29,4 @@ const Itemcard = (props) => {
     )
 }
 
-export default Itemcard;
+export default Phone_Category;
