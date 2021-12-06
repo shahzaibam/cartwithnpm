@@ -3,7 +3,7 @@ import data from './data';
 import Itemcard from './Itemcard';
 import { Link } from 'react-router-dom';
 import Product_Render from './PhoneCategory/Product_Render';
- 
+import SportsProduct_Render from './SportsAndEntertainment/SportsProduct_Render';
 
 const Home = () => {
     return (   
@@ -34,8 +34,8 @@ const Home = () => {
                 </div>
             </section>
 
-            <Product_Render/>
-        </>
+            <SportsProduct_Render />
+            </>
     )
 }
 

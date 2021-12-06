@@ -10,14 +10,13 @@ import SportsProduct_Render from './SportsAndEntertainment/SportsProduct_Render'
 
 
 const HomeComponent = () => {
-    return (
+    return ( 
         <div>
             <Carousel />
             <CartProvider>
                 <Home />
                 <Cart />
                 <Product_Render />
-                <SportsProduct_Render />
 
             </CartProvider>
         </div>

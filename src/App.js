@@ -6,7 +6,7 @@ import Footer from './Components/Footer';
 import CartPage from './Components/CartPage';
 import {
   BrowserRouter as Router,
-  Switch, 
+  Switch,
   Route,
   Link
 } from "react-router-dom";
@@ -24,8 +24,6 @@ import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
 import LenovoThinkPad from './Components/ProductPage/LenovoThinkPad';
 import IPhone11black from './Components/ProductPage/IPhone11black';
 import SignUpPage from './Components/SignUpPage';
-import Product_Render from './Components/PhoneCategory/Product_Render';
-import BabyProduct_Render from './Components/BabyProductCategory/BabyProduct_Render';
 import BeautyProduct_Render from './Components/Beauty&HealthCategory/BeautyProduct_Render';
 import ElectronicsProduct_Render from './Components/Electronics/ElectronicsProduct_Render';
 import FurnituresProduct_Render from './Components/Furnitures/FurnituresProduct_Render';
@@ -34,11 +32,12 @@ import LuggageAndBags_Render from './Components/LuggageAndBags/LuggageAndBags_Re
 import ShoesRender from './Components/Shoes/ShoesRender';
 import SportsProduct_Render from './Components/SportsAndEntertainment/SportsProduct_Render';
 import AllRender from './Components/AllCategories/AllRender';
+import CartProviderPhone from './Components/PhoneCategory/CartProviderPhone';
+import CartProviderBaby from './Components/BabyProductCategory/CartProviderBaby';
 
 function App() {
   return (
     <Router>
-
 
       <NavBar />
       <Switch>
@@ -55,8 +54,8 @@ function App() {
         <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
         <Route exact path="/Lenovo" component={LenovoThinkPad} />
         <Route exact path="/Iphone11" component={IPhone11black} />
-        <Route exact path="/technology" component={Product_Render} />
-        <Route exact path="/BabyProducts" component={BabyProduct_Render} />
+        <Route exact path="/technology" component={CartProviderPhone} />
+        <Route exact path="/BabyProducts" component={CartProviderBaby} />
         <Route exact path="/Beauty&Health" component={BeautyProduct_Render} />
         <Route exact path="/Electronics" component={ElectronicsProduct_Render} />
         <Route exact path="/Furnitures" component={FurnituresProduct_Render} />
@@ -66,8 +65,6 @@ function App() {
         <Route exact path="/Sports&Entertainment" component={SportsProduct_Render} />
         <Route exact path="/AllCategories" component={AllRender} />
         <Route exact path="/signup" component={SignUpPage} />
-
-
         <Route exact path="/cart" component={CartPage} />
 
       </Switch>
