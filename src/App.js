@@ -24,9 +24,9 @@ import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
 import LenovoThinkPad from './Components/ProductPage/LenovoThinkPad';
 import IPhone11black from './Components/ProductPage/IPhone11black';
 import SignUpPage from './Components/SignUpPage';
-import BeautyProduct_Render from './Components/Beauty&HealthCategory/BeautyProduct_Render';
-import ElectronicsProduct_Render from './Components/Electronics/ElectronicsProduct_Render';
-import FurnituresProduct_Render from './Components/Furnitures/FurnituresProduct_Render';
+import CartProviderBeautyHealth from './Components/Beauty&HealthCategory/CartProviderBeautyHealth';
+import CartProviderElectronics from './Components/Electronics/CartProviderElectronics';
+import CartProviderFurnitures from './Components/Furnitures/CartProviderFurnitures';
 import HomeGardenProduct_Render from './Components/HomeGarden/HomeGardenProduct_Render';
 import LuggageAndBags_Render from './Components/LuggageAndBags/LuggageAndBags_Render';
 import ShoesRender from './Components/Shoes/ShoesRender';
@@ -56,9 +56,9 @@ function App() {
         <Route exact path="/Iphone11" component={IPhone11black} />
         <Route exact path="/technology" component={CartProviderPhone} />
         <Route exact path="/BabyProducts" component={CartProviderBaby} />
-        <Route exact path="/Beauty&Health" component={BeautyProduct_Render} />
-        <Route exact path="/Electronics" component={ElectronicsProduct_Render} />
-        <Route exact path="/Furnitures" component={FurnituresProduct_Render} />
+        <Route exact path="/Beauty&Health" component={CartProviderBeautyHealth} />
+        <Route exact path="/Electronics" component={CartProviderElectronics} />
+        <Route exact path="/Furnitures" component={CartProviderFurnitures} />
         <Route exact path="/Home&Garden" component={HomeGardenProduct_Render} />
         <Route exact path="/Luggage&Bags" component={LuggageAndBags_Render} />
         <Route exact path="/Shoes" component={ShoesRender} />

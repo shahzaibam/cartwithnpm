@@ -2,7 +2,7 @@ const beautycategoryData = {
     beautycategoriesData: [
 
         {
-            id: 1,
+            id: 19,
             img: "https://s3.images-iherb.com/msc/msc60449/l/48.jpg",
             title : 'Samsung S20',
             desc : 'Black Samsung S20', 
