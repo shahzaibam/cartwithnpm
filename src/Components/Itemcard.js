@@ -1,7 +1,6 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
 import { Link } from "react-router-dom";
-import '../App.css';
 
 const Itemcard = (props) => {
 

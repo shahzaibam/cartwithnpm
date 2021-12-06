@@ -2,93 +2,43 @@ const furnituresCategoryData = {
     furnituresCategoriesData: [
 
         {
-            id: 10,
-            img: "https://image.made-in-china.com/202f0j10lrSGzsyKELkW/Modern-Luxury-Home-Fabric-Lounge-Living-Room-Furniture-Recliner-Sofa.jpg",
-            title : 'Xiaomi Mi Electric Scooter',
-            desc : 'Xiaomi Mi Electric Scooter Pro 2', 
-            price : 659,
-            path : 'XiaomiScooter'
-        },    
-        
-        {
-            id: 1,
-            img: "https://images.samsung.com/es/smartphones/galaxy-s21/buy/02_ImageCarousel/01_FamilyShot/S21_Family_KV_MO_img.jpg",
-            title : 'Samsung S20',
-            desc : 'Black Samsung S20', 
-            price : 899,
-            path : 'S20',
-            category : 'phone'
-        },
-
-        
-        {
-            id: 1,
-            img: "https://images.samsung.com/es/smartphones/galaxy-s21/buy/02_ImageCarousel/01_FamilyShot/S21_Family_KV_MO_img.jpg",
-            title : 'Samsung S20',
-            desc : 'Black Samsung S20', 
-            price : 899,
-            path : 'S20',
-            category : 'phone'
-        },
-
-
-        
-        {
-            id: 1,
-            img: "https://images.samsung.com/es/smartphones/galaxy-s21/buy/02_ImageCarousel/01_FamilyShot/S21_Family_KV_MO_img.jpg",
-            title : 'Samsung S20',
-            desc : 'Black Samsung S20', 
-            price : 899,
-            path : 'S20',
-            category : 'phone'
-        },
-
-        
- 
-        {
-            id: 2,
-            img: "https://muynuevo.com/wp-content/webpc-passthru.php?src=https://muynuevo.com/wp-content/uploads/GOLD-1-1.png&nocache=1",
-            title : 'Iphone 11',
-            desc : 'Golden Iphone 11', 
-            price : 659,
-            path : 'Iphone11pmax',
-            category : 'phone'
-        },
-
-        {
-            id: 3,
-            img: "https://b282c5de4f50ed30d5ce-25e9f6b52714e6c3d4dbb7e330152014.ssl.cf3.rackcdn.com//siweb_uno_thumb_medium/content/781356/3310-DS_2.jpg",
-            title : 'Nokia 3320',
-            desc : 'Nokia 3320 Black', 
-            price : 60.95,
-            path : 'nokia3320',
-            category : 'phone'
-        },
-
-        
-        {
-            id: 4,
-            img: "https://images.samsung.com/es/smartphones/galaxy-note20/buy/carousel/mobile/005-galaxynote20ultra-mysticbronze.jpg?imwidth=720",
-            title : 'Samsung Note 20 Ultra',
-            desc : 'Samsung Note 20 Ultra Golden Pink', 
-            price : 749,
-            path : 'SamsungNote20',
-            category : 'phone'
-        },
-
-
-        
-        {
             id: 12,
-            img: "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=1920/https://d1eh9yux7w8iql.cloudfront.net/product_images/product_images/290057_b4c7419d-aa1b-47dc-a956-4afbd61d7d1f-thumb.jpg",
-            title : 'Iphone 11',
-            desc : 'Black Iphone 11', 
-            price : 749,
-            path : 'Iphone11',
-            category : 'phone'
+            img: "https://image.made-in-china.com/202f0j10lrSGzsyKELkW/Modern-Luxury-Home-Fabric-Lounge-Living-Room-Furniture-Recliner-Sofa.jpg",
+            title : 'Single Sofa',
+            desc : 'Green Single Sofa', 
+            price : 99,
+            path : 'singlesofa'
+        }, 
+       
+        {
+            id: 21,
+            img: "https://cdn.manomano.com/paleta-wolfpack-plus-mango-de-goma-344-165x120mm-P-3379115-12966407_1.jpg",
+            title : 'Paletin',
+            desc : 'Paletin de metal', 
+            price : 9.99,
+            path : 'paletin'
         },
 
-       
+        {
+            id: 23,
+            img: "https://sc04.alicdn.com/kf/H33343c2574d34006a9739f71933d4f49V.jpg",
+            title : 'Wood Chair',
+            desc : 'White Wood Chair', 
+            price : 29.55,
+            path : 'woodchair'
+        },
+
+        {
+            id: 24,
+            img: "https://www.ikea.com/es/es/images/products/lack-mesa-auxiliar-negro__22518_pe107397_s5.jpg?f=xxs",
+            title : 'Mesa Negra',
+            desc : 'Mesa Negra de cuatro patas', 
+            price : 7,
+            path : 'mesanegra'
+        },
+
+
+        
 
     ]
 

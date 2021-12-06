@@ -7,7 +7,7 @@ import beautycategoryData from './beautyCategoryData';
 const BeautyProduct_Render = () => {
     return (    
         <>
-            <h1 className="text-center mt-3">Beauty&Health</h1>
+            <h1 className="text-center mt-3">Beauty & Health</h1>
 
             <section  style={{margin: '2.5rem'}}>
             

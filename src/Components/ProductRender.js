@@ -34,7 +34,6 @@ const Home = () => {
                 </div>
             </section>
 
-            <SportsProduct_Render />
             </>
     )
 }

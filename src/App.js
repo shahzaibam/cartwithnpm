@@ -1,7 +1,6 @@
 import React from 'react'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import NavBar from './Components/NavBar';
-import Carousel from './Components/Carousel'
 import Footer from './Components/Footer';
 import CartPage from './Components/CartPage';
 import {
@@ -27,11 +26,11 @@ import SignUpPage from './Components/SignUpPage';
 import CartProviderBeautyHealth from './Components/Beauty&HealthCategory/CartProviderBeautyHealth';
 import CartProviderElectronics from './Components/Electronics/CartProviderElectronics';
 import CartProviderFurnitures from './Components/Furnitures/CartProviderFurnitures';
-import HomeGardenProduct_Render from './Components/HomeGarden/HomeGardenProduct_Render';
-import LuggageAndBags_Render from './Components/LuggageAndBags/LuggageAndBags_Render';
-import ShoesRender from './Components/Shoes/ShoesRender';
-import SportsProduct_Render from './Components/SportsAndEntertainment/SportsProduct_Render';
-import AllRender from './Components/AllCategories/AllRender';
+import CartProviderHomeGarden from './Components/HomeGarden/CartProviderHomeGarden';
+import CartProviderLuggage from './Components/LuggageAndBags/CartProviderLuggage';
+import CartProviderShoes from './Components/Shoes/CartProviderShoes';
+import CartProviderSports from './Components/SportsAndEntertainment/CartProviderSports';
+import CartProviderAllProducts from './Components/AllCategories/CartProviderAllProducts';
 import CartProviderPhone from './Components/PhoneCategory/CartProviderPhone';
 import CartProviderBaby from './Components/BabyProductCategory/CartProviderBaby';
 
@@ -59,11 +58,11 @@ function App() {
         <Route exact path="/Beauty&Health" component={CartProviderBeautyHealth} />
         <Route exact path="/Electronics" component={CartProviderElectronics} />
         <Route exact path="/Furnitures" component={CartProviderFurnitures} />
-        <Route exact path="/Home&Garden" component={HomeGardenProduct_Render} />
-        <Route exact path="/Luggage&Bags" component={LuggageAndBags_Render} />
-        <Route exact path="/Shoes" component={ShoesRender} />
-        <Route exact path="/Sports&Entertainment" component={SportsProduct_Render} />
-        <Route exact path="/AllCategories" component={AllRender} />
+        <Route exact path="/Home&Garden" component={CartProviderHomeGarden} />
+        <Route exact path="/Luggage&Bags" component={CartProviderLuggage} />
+        <Route exact path="/Shoes" component={CartProviderShoes} />
+        <Route exact path="/Sports&Entertainment" component={CartProviderSports} />
+        <Route exact path="/AllCategories" component={CartProviderAllProducts} />
         <Route exact path="/signup" component={SignUpPage} />
         <Route exact path="/cart" component={CartPage} />
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import AllCategoryData from './AllCategoryData'
+import data from '../data';
 import All_Category from './All_Category'
 
 const AllRender = () => {
@@ -13,7 +13,7 @@ const AllRender = () => {
                 <div className="row justify-content-center">
                 
                     {
-                        AllCategoryData.allCategoriesData.map((item, index) => {
+                        data.productData.map((item, index) => {
                             return (
                                 <All_Category 
                                     img={item.img}
