@@ -1,8 +1,8 @@
 import React from 'react'
 import { useCart } from 'react-use-cart'
 import { Link } from "react-router-dom";
-
-const HomeGarden_Category = (props) => {
+ 
+const All_Category = (props) => {
 
     const { addItem } = useCart();
  
@@ -29,4 +29,4 @@ const HomeGarden_Category = (props) => {
     )
 }
 
-export default HomeGarden_Category;
+export default All_Category;

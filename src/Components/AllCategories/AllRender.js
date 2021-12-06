@@ -1,23 +1,21 @@
 import React from 'react'
-import data from './data';
-import Itemcard from './Itemcard';
 import { Link } from 'react-router-dom';
-import Product_Render from './PhoneCategory/Product_Render';
- 
+import AllCategoryData from './AllCategoryData'
+import All_Category from './All_Category'
 
-const Home = () => {
-    return (   
+const AllRender = () => {
+    return (    
         <>
-            <h1 className="text-center mt-3">All Products</h1>
+            <h1 className="text-center mt-3">All Categories</h1>
 
             <section  style={{margin: '2.5rem'}}>
             
                 <div className="row justify-content-center">
                 
                     {
-                        data.productData.map((item, index) => {
+                        AllCategoryData.allCategoriesData.map((item, index) => {
                             return (
-                                <Itemcard 
+                                <All_Category 
                                     img={item.img}
                                     title={item.title}
                                     desc={item.desc}
@@ -32,11 +30,10 @@ const Home = () => {
                     }
 
                 </div>
-            </section>
 
-            <Product_Render/>
+            </section>
         </>
     )
 }
 
-export default Home;
+export default AllRender;

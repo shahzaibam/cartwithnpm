@@ -11,12 +11,12 @@ const Shoes_Category = (props) => {
 
         <div className="col-11 col-md-6 col-lg-3 mx-0 mb-4 itemcard">
 
-            <div class="card p-0 overflow-hidden h-100 shadow">
-                <Link to={`/${props.path}`}><img src={props.img} class="card-img-top img-fluid bg-dark" height="100px" /></Link>
-                <div class="card-body text-center">
-                    <h5 class="card-title">{props.title}</h5>
-                    <h5 class="card-title">{props.price}</h5>
-                    <p class="card-text">{props.desc}</p>
+            <div className="card p-0 overflow-hidden h-100 shadow">
+                <Link to={`/${props.path}`}><img src={props.img} className="card-img-top img-fluid bg-dark" height="100px" /></Link>
+                <div className="card-body text-center">
+                    <h5 className="card-title">{props.title}</h5>
+                    <h5 className="card-title">{props.price}</h5>
+                    <p className="card-text">{props.desc}</p>
                     <Link className="btn btn-danger" style={{ marginRight: '1rem' }} to={`/${props.path}`}>View Product</Link>
                     <button className="btn btn-success ml-3" onClick={
                         () => addItem(props.item)

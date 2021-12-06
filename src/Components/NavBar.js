@@ -11,22 +11,22 @@ export function NavBar() {
     return (
         <>
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light pb-4">
-                <div class="container-fluid">
-                    <Link class="navbar-brand h6 ml-3 mr-3 mt-2 web-title" to="/">EShopping</Link>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+            <nav className="navbar navbar-expand-lg navbar-light bg-light pb-4">
+                <div className="container-fluid">
+                    <Link className="navbar-brand h6 ml-3 mr-3 mt-2 web-title" to="/">EShopping</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <Link class="nav-link active mr-3" aria-current="page" to="/">Home</Link>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li className="nav-item">
+                                <Link className="nav-link active mr-3" aria-current="page" to="/">Home</Link>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle`mr-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle`mr-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Categories
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <Link to="/technology" className="dropdown-item">Technology</Link>
                                     <Link to="/BabyProducts" className="dropdown-item">Baby Products</Link>
                                     <Link to="/Beauty&Health" className="dropdown-item">Beauty & Health</Link>
@@ -82,11 +82,11 @@ export function NavBar() {
                             </div>
 
 
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle`mr-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <li className="nav-item dropdown">
+                                <a className="nav-link dropdown-toggle`mr-3" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Cart
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <CartProvider>
                                         <Cart />
                                     </CartProvider>

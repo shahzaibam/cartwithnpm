@@ -32,6 +32,8 @@ import FurnituresProduct_Render from './Components/Furnitures/FurnituresProduct_
 import HomeGardenProduct_Render from './Components/HomeGarden/HomeGardenProduct_Render';
 import LuggageAndBags_Render from './Components/LuggageAndBags/LuggageAndBags_Render';
 import ShoesRender from './Components/Shoes/ShoesRender';
+import SportsProduct_Render from './Components/SportsAndEntertainment/SportsProduct_Render';
+import AllRender from './Components/AllCategories/AllRender';
 
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
         <Route exact path="/Home&Garden" component={HomeGardenProduct_Render} />
         <Route exact path="/Luggage&Bags" component={LuggageAndBags_Render} />
         <Route exact path="/Shoes" component={ShoesRender} />
+        <Route exact path="/Sports&Entertainment" component={SportsProduct_Render} />
+        <Route exact path="/AllCategories" component={AllRender} />
         <Route exact path="/signup" component={SignUpPage} />
 
 
