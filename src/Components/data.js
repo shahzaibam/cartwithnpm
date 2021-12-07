@@ -226,7 +226,7 @@ const data = {
             title : 'Wood Chair',
             desc : 'White Wood Chair', 
             price : 29.55,
-            path : 'Furnitures'
+            path : '/woodchair'
         }, 
 
 
