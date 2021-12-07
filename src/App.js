@@ -22,7 +22,6 @@ import MacBookAir2017 from './Components/ProductPage/MacBookAir2017';
 import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
 import LenovoThinkPad from './Components/ProductPage/LenovoThinkPad';
 import IPhone11black from './Components/ProductPage/IPhone11black';
-import SignUpPage from './Components/SignUpPage';
 import CartProviderBeautyHealth from './Components/Beauty&HealthCategory/CartProviderBeautyHealth';
 import CartProviderElectronics from './Components/Electronics/CartProviderElectronics';
 import CartProviderFurnitures from './Components/Furnitures/CartProviderFurnitures';
@@ -33,7 +32,15 @@ import CartProviderSports from './Components/SportsAndEntertainment/CartProvider
 import CartProviderAllProducts from './Components/AllCategories/CartProviderAllProducts';
 import CartProviderPhone from './Components/PhoneCategory/CartProviderPhone';
 import CartProviderBaby from './Components/BabyProductCategory/CartProviderBaby';
-
+import SignUp from './Components/SignUp';
+import BabyCart from './Components/ProductPage/BabyCart';
+import NikeSport from './Components/ProductPage/NikeSport';
+import Multivitaminico from './Components/ProductPage/Multivitaminico';
+import SingleSofa from './Components/ProductPage/SingleSofa';
+import Cortacesped from './Components/ProductPage/Cortacesped';
+import TravelBag from './Components/ProductPage/TravelBag';
+import Paletin from './Components/ProductPage/Paletin';
+ 
 function App() {
   return (
     <Router>
@@ -63,8 +70,15 @@ function App() {
         <Route exact path="/Shoes" component={CartProviderShoes} />
         <Route exact path="/Sports&Entertainment" component={CartProviderSports} />
         <Route exact path="/AllCategories" component={CartProviderAllProducts} />
-        <Route exact path="/signup" component={SignUpPage} />
+        <Route exact path="/signup" component={SignUp} />
         <Route exact path="/cart" component={CartPage} />
+        <Route exact path="/babyCart" component={BabyCart} />
+        <Route exact path="/nikeSport" component={NikeSport} />
+        <Route exact path="/multivitaminico" component={Multivitaminico} />
+        <Route exact path="/singlesofa" component={SingleSofa} />
+        <Route exact path="/Cortacesped" component={Cortacesped} />
+        <Route exact path="/travelBag" component={TravelBag} />
+        <Route exact path="/paletin" component={Paletin} />
 
       </Switch>
       <Footer />

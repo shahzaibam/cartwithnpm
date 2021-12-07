@@ -17,7 +17,7 @@ export const Cart = () => {
     } = useCart(); 
     if (isEmpty) return <h1 className="text-center">Your Cart is empty</h1>
     return ( 
-        <section className="py-4 container" style={{width: '900px'}}>
+        <section className="py-4 container" style={{width: '600px'}}>
             <div className="row justify-content-center">
                 <div className="col-12">
                     <h5>Cart ({totalUniqueItems}) total Items: ({totalItems})</h5>
@@ -52,7 +52,7 @@ export const Cart = () => {
                     </table>
                 </div>
                 <div className="col-auto ms-auto">
-                    <h2>Total Price: ({cartTotal}€)</h2>
+                    <h2>Total Price: ({Math.round(cartTotal)}€)</h2>
                 </div>
                 <div className="col-auto ms-auto">
                     <button 
