@@ -19,62 +19,7 @@ const SweatShirt = () => {
                         <div className="about"> <h3 className="font-weight-bold">Adidas Sweatshirt</h3>
                             <h4 className="font-weight-bold">24.95€</h4>
                         </div>
-                        <hr />
 
-                        <div className="storage-div">
-                            <h5>Size</h5>
-
-                            <div className="row">
-                                <div className="col-sm-2">
-                                    <Link to="/">
-                                        <div className="card" style={{ cursor: 'pointer' }}>
-                                            <div className="card-body">
-                                                <h5 className="card-title">S</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-                                <div className="col-sm-2">
-                                    <Link to="/">
-                                        <div className="card" style={{ cursor: 'pointer' }}>
-                                            <div className="card-body">
-                                                <h5 className="card-title">M</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-
-                                <div className="col-sm-2">
-                                    <Link to="/">
-                                        <div className="card" style={{ cursor: 'pointer' }}>
-                                            <div className="card-body">
-                                                <h5 className="card-title">L</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-
-                                <div className="col-sm-2">
-                                    <Link to="/">
-                                        <div className="card" style={{ cursor: 'pointer' }}>
-                                            <div className="card-body">
-                                                <h5 className="card-title">XL</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-
-                                <div className="col-sm-2">
-                                    <Link to="/">
-                                        <div className="card" style={{ cursor: 'pointer' }}>
-                                            <div className="card-body">
-                                                <h5 className="card-title">XXL</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
                         <div className="buttons mt-4 "> <button className="btn btn-danger btn-long buy" onClick={() => alert("your product has been added to the cart")}>Buy it Now</button> </div>
 
                         <hr />

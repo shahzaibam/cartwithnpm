@@ -18,6 +18,7 @@ const Home = () => {
                         data.productData.map((item, index) => {
                             return (
                                 <Itemcard 
+                                    id={item.id}
                                     img={item.img}
                                     title={item.title}
                                     desc={item.desc}

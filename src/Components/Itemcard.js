@@ -19,7 +19,7 @@ const Itemcard = (props) => {
                     <p className="card-text">{props.desc}</p>
                     <Link className="btn btn-danger" style={{ marginRight: '1rem' }} to={`/${props.path}`}>View Product</Link>
                     <button className="btn btn-success ml-3" onClick={
-                        () => alert('product added '+ addItem(props.item)) 
+                        () => alert(('product added '), addItem(props.item)) 
                     } >Add to cart</button>
                 </div>
             </div>

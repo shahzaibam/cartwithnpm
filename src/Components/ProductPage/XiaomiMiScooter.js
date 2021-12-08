@@ -21,66 +21,8 @@ const XiaomiMiScooter = () => {
                             <h4 className="font-weight-bold">659€
                             </h4>
                         </div>
-                        <hr />
-                        <div className="color-div" style={{ width: '200px' }}>
-                            <h5>Color</h5>
-                            {         /*                   <div className="d-flex justify-content-between">
-*/}
-                            <div className="d-flex justify-content-between">
-                                <div>
-                                    <button className="btn text-white" style={{ background: '#E91E63', borderRadius: '100%', height: '30px', outlineColor: 'blue' }} onClick={() => alert('pink')}></button>
-                                    <p>Pink</p>
-                                </div>
-
-                                <div>
-                                    <button className="btn bg-info text-white" style={{ borderRadius: '100%', height: '30px', outlineColor: 'blue' }} onClick={() => alert('blue')}></button>
-                                    <p>Blue</p>
-                                </div>
-                                <div>
-                                    <button className="btn bg-dark text-white" style={{ borderRadius: '100%', height: '30px', outlineColor: 'blue' }} onClick={() => alert('black')}></button>
-                                    <p>Black</p>
-                                </div>
-                            </div>
-                            {/*                            </div>*/}
-                        </div>
-
-                        <hr />
 
 
-                        <div className="storage-div">
-                            <h5>Battery</h5>
-
-                            <div className="row">
-                                <div className="col-sm-4">
-                                    <Link to="/">
-                                        <div className="card" style={{ cursor: 'pointer' }}>
-                                            <div className="card-body">
-                                                <h5 className="card-title">5020mAh</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-                                <div className="col-sm-4">
-                                    <Link to="/">
-                                        <div className="card" style={{ cursor: 'pointer' }}>
-                                            <div className="card-body">
-                                                <h5 className="card-title">1020mAh</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-
-                                <div className="col-sm-4">
-                                    <Link to="/">
-                                        <div className="card" style={{ cursor: 'pointer' }}>
-                                            <div className="card-body">
-                                                <h5 className="card-title">1520mAh</h5>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-                            </div>
-                        </div>
                         <div className="buttons mt-4 "> <button className="btn btn-danger btn-long buy" onClick={() => alert("your product has been added to the cart")}>Buy it Now</button> </div>
 
                         <hr />
