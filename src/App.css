@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+}
+
 .card:hover{
   background-color: rgba(102, 105, 107, 0.527);
   transition: .8s;

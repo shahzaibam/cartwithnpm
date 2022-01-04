@@ -2,8 +2,8 @@ import React from 'react'
 import { useCart } from 'react-use-cart'
 import { Link } from "react-router-dom";
 
-const Phone_Category = (props) => {
-
+const Baby_Category = (props) => {
+ 
     const { addItem } = useCart();
  
   
@@ -29,4 +29,4 @@ const Phone_Category = (props) => {
     )
 }
 
-export default Phone_Category;
+export default Baby_Category;
