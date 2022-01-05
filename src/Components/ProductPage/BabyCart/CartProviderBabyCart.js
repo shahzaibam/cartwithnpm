@@ -1,16 +1,16 @@
 import React from 'react'
 import { CartProvider } from 'react-use-cart';
-import BabyBath from './BabyBath';
+import BabyCart_Render from './BabyCart_Render';
 
 
-const BabyBathCartProvider = () => {
+const CartProviderBabyCart = () => {
     return ( 
         <div>
             <CartProvider>
-                <BabyBath />
+                <BabyCart_Render/>
             </CartProvider>
         </div>
     )
 }
 
-export default BabyBathCartProvider;
+export default CartProviderBabyCart;
