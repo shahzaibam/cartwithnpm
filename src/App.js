@@ -17,7 +17,7 @@ import SamsungNote20Ultra from './Components/ProductPage/SamsungNote20Ultra';
 import SnakeRing from './Components/ProductPage/SnakeRing';
 import SweatShirt from './Components/ProductPage/SweatShirt';
 import UlyssenWatch from './Components/ProductPage/UlyssenWatch';
-import NikeShoes from './Components/ProductPage/NikeShoes';
+import CartProviderNikeShoes from './Components/ProductPage/NikeShoes/CartProviderNikeShoes';
 import CartProviderMacBook from './Components/ProductPage/MacBookAir/CartProviderMacBook';
 import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
 import CartProviderLenovo from './Components/ProductPage/LenovoThinkPad/CartProviderLenovo';
@@ -35,7 +35,7 @@ import CartProviderBaby from './Components/BabyProductCategory/CartProviderBaby'
 import SignUp from './Components/SignUp';
 import CartProviderBabyCart from './Components/ProductPage/BabyCart/CartProviderBabyCart'
 import NikeSport from './Components/ProductPage/NikeSport';
-import Multivitaminico from './Components/ProductPage/Multivitaminico';
+import CartProviderMulti from './Components/ProductPage/multi/CartProviderMulti';
 import SingleSofa from './Components/ProductPage/SingleSofa';
 import CartProviderCortaCesped from './Components/ProductPage/CortaCesped/CartProviderCortaCesped';
 import TravelBag from './Components/ProductPage/TravelBag';
@@ -60,7 +60,7 @@ function App() {
         <Route exact path="/SnakeRing" component={SnakeRing} />
         <Route exact path="/SweatShirt" component={SweatShirt} />
         <Route exact path="/UlyssenWatch" component={UlyssenWatch} />
-        <Route exact path="/Nike" component={NikeShoes} />
+        <Route exact path="/Nike" component={CartProviderNikeShoes} />
         <Route exact path="/MacBookAir" component={CartProviderMacBook} />
         <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
         <Route exact path="/Lenovo" component={CartProviderLenovo} />
@@ -79,7 +79,7 @@ function App() {
         <Route exact path="/cart" component={CartPage} />
         <Route exact path="/babyCart" component={CartProviderBabyCart} />
         <Route exact path="/nikeSport" component={NikeSport} />
-        <Route exact path="/multivitaminico" component={Multivitaminico} />
+        <Route exact path="/multivitaminico" component={CartProviderMulti} />
         <Route exact path="/singlesofa" component={SingleSofa} />
         <Route exact path="/Cortacesped" component={CartProviderCortaCesped} />
         <Route exact path="/travelBag" component={TravelBag} />

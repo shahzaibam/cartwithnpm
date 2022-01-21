@@ -1,34 +1,37 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { useCart } from 'react-use-cart'
 
 
-const Multivitaminico = () => {
+const NikeShoes = (props) => {
+    const { addItem } = useCart();
+
+
     return (
         <>
-            <div className="container-fluid mt-4 mb-3">
+            <div className="container mt-4 mb-3">
                 <div className="row">
                     <div className="col-md-5 pr-2">
 
                         <div className="demo">
                             <ul id="lightSlider">
-                                <img src="https://s3.images-iherb.com/msc/msc60449/l/48.jpg" height="400px" width="400px" />
+                                <Link to={`/${props.path}`}><img src={props.img} height="400px" width="400px" /></Link>
                             </ul>
                         </div>
 
                     </div>
                     <div className="col-md-7">
-                        <div className="about"> <h3 className="font-weight-bold">Multivitamínico</h3>
-                            <h4 className="font-weight-bold">21.89€</h4>
+                        <div className="about"> <h3 className="font-weight-bold">{props.title}</h3>
+                            <h4 className="font-weight-bold">{props.price}</h4>
+                            <Link className="btn btn-danger" style={{ marginRight: '1rem' }} to={`/${props.path}`}>View Product</Link>
+                            <button className="btn btn-success ml-3" onClick={
+                                () => alert(('product added '), addItem(props.item))
+                            } >Add to cart</button>
                         </div>
-                        <hr />
-
-                        <div className="buttons mt-4 "> <button className="btn btn-danger btn-long buy" onClick={() => alert("your product has been added to the cart")}>Buy it Now</button> </div>
-
                         <hr />
                         <div className="product-description">
                             <div className="mt-2"> <h4 className="font-weight-bold">Description</h4>
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos hic reprehenderit veritatis blanditiis perferendis ad debitis assumenda expedita dicta, molestiae cupiditate optio incidunt doloremque dolores vitae modi minima voluptas harum soluta voluptatum aliquam quisquam quos rerum! Nostrum magni impedit necessitatibus assumenda culpa sequi tempora a, deserunt in dolor magnam odit aspernatur.</p>
-
                             </div>
                         </div>
                     </div>
@@ -57,4 +60,4 @@ const Multivitaminico = () => {
     )
 }
 
-export default Multivitaminico;
+export default NikeShoes;
