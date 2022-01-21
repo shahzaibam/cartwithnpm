@@ -12,7 +12,7 @@ import {
 import HomeComponent from './Components/HomeComponent';
 import ProductpgS20 from './Components/ProductPage/ProductpgS20';
 import ProductIphone11promax from './Components/ProductPage/ProductIphone11promax';
-import Nokia3320 from './Components/ProductPage/Nokia3320';
+import CartProviderNokia from './Components/ProductPage/Nokia/CartProviderNokia';
 import SamsungNote20Ultra from './Components/ProductPage/SamsungNote20Ultra';
 import SnakeRing from './Components/ProductPage/SnakeRing';
 import SweatShirt from './Components/ProductPage/SweatShirt';
@@ -34,7 +34,7 @@ import CartProviderPhone from './Components/PhoneCategory/CartProviderPhone';
 import CartProviderBaby from './Components/BabyProductCategory/CartProviderBaby';
 import SignUp from './Components/SignUp';
 import CartProviderBabyCart from './Components/ProductPage/BabyCart/CartProviderBabyCart'
-import NikeSport from './Components/ProductPage/NikeSport';
+// import CartProviderNikeShoes from './Components/ProductPage/NikeShoes/CartProviderNikeShoes';
 import CartProviderMulti from './Components/ProductPage/multi/CartProviderMulti';
 import SingleSofa from './Components/ProductPage/SingleSofa';
 import CartProviderCortaCesped from './Components/ProductPage/CortaCesped/CartProviderCortaCesped';
@@ -44,6 +44,7 @@ import CartProviderBabyBath from './Components/ProductPage/BabyBath/CartProvider
 import CartProviderBabySpoons from './Components/ProductPage/BabySpoons/CartProviderBabySpoons';
 import WoodChair from './Components/ProductPage/WoodChair';
 import CartProviderMesaNegra from './Components/ProductPage/MesaNegra/CartProviderMesaNegra'; 
+import CartProviderNikeSport from './Components/ProductPage/NikeSport/CartProviderNikeSport';
 
 
 function App() {
@@ -55,7 +56,7 @@ function App() {
         <Route exact path="/" component={HomeComponent} />
         <Route exact path="/S20" component={ProductpgS20} />
         <Route exact path="/Iphone11pmax" component={ProductIphone11promax} />
-        <Route exact path="/nokia3320" component={Nokia3320} />
+        <Route exact path="/nokia3320" component={CartProviderNokia} />
         <Route exact path="/SamsungNote20" component={SamsungNote20Ultra} />
         <Route exact path="/SnakeRing" component={SnakeRing} />
         <Route exact path="/SweatShirt" component={SweatShirt} />
@@ -78,7 +79,7 @@ function App() {
         <Route exact path="/signup" component={SignUp} />
         <Route exact path="/cart" component={CartPage} />
         <Route exact path="/babyCart" component={CartProviderBabyCart} />
-        <Route exact path="/nikeSport" component={NikeSport} />
+        <Route exact path="/nikeSport" component={CartProviderNikeSport} />
         <Route exact path="/multivitaminico" component={CartProviderMulti} />
         <Route exact path="/singlesofa" component={SingleSofa} />
         <Route exact path="/Cortacesped" component={CartProviderCortaCesped} />
