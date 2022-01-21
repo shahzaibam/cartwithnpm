@@ -37,7 +37,7 @@ import CartProviderBabyCart from './Components/ProductPage/BabyCart/CartProvider
 import NikeSport from './Components/ProductPage/NikeSport';
 import Multivitaminico from './Components/ProductPage/Multivitaminico';
 import SingleSofa from './Components/ProductPage/SingleSofa';
-import Cortacesped from './Components/ProductPage/Cortacesped';
+import CartProviderCortaCesped from './Components/ProductPage/CortaCesped/CartProviderCortaCesped';
 import TravelBag from './Components/ProductPage/TravelBag';
 import Paletin from './Components/ProductPage/Paletin';
 import CartProviderBabyBath from './Components/ProductPage/BabyBath/CartProviderBabyBath';
@@ -80,7 +80,7 @@ function App() {
         <Route exact path="/nikeSport" component={NikeSport} />
         <Route exact path="/multivitaminico" component={Multivitaminico} />
         <Route exact path="/singlesofa" component={SingleSofa} />
-        <Route exact path="/Cortacesped" component={Cortacesped} />
+        <Route exact path="/Cortacesped" component={CartProviderCortaCesped} />
         <Route exact path="/travelBag" component={TravelBag} />
         <Route exact path="/paletin" component={Paletin} />
         <Route exact path="/babyBath" component={CartProviderBabyBath} />
