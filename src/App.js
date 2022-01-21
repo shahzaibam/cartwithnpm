@@ -18,7 +18,7 @@ import SnakeRing from './Components/ProductPage/SnakeRing';
 import SweatShirt from './Components/ProductPage/SweatShirt';
 import UlyssenWatch from './Components/ProductPage/UlyssenWatch';
 import NikeShoes from './Components/ProductPage/NikeShoes';
-import MacBookAir2017 from './Components/ProductPage/MacBookAir2017';
+import CartProviderMacBook from './Components/ProductPage/MacBookAir/CartProviderMacBook';
 import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
 import CartProviderLenovo from './Components/ProductPage/LenovoThinkPad/CartProviderLenovo';
 import CartProviderIphone11 from './Components/ProductPage/Iphone11/CartProviderIphone11'
@@ -60,7 +60,7 @@ function App() {
         <Route exact path="/SweatShirt" component={SweatShirt} />
         <Route exact path="/UlyssenWatch" component={UlyssenWatch} />
         <Route exact path="/Nike" component={NikeShoes} />
-        <Route exact path="/MacBookAir" component={MacBookAir2017} />
+        <Route exact path="/MacBookAir" component={CartProviderMacBook} />
         <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
         <Route exact path="/Lenovo" component={CartProviderLenovo} />
         <Route exact path="/Iphone11" component={CartProviderIphone11} />
