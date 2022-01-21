@@ -43,8 +43,9 @@ import Paletin from './Components/ProductPage/Paletin';
 import CartProviderBabyBath from './Components/ProductPage/BabyBath/CartProviderBabyBath';
 import CartProviderBabySpoons from './Components/ProductPage/BabySpoons/CartProviderBabySpoons';
 import WoodChair from './Components/ProductPage/WoodChair';
-import MesaNegra from './Components/ProductPage/MesaNegra';
- 
+import CartProviderMesaNegra from './Components/ProductPage/MesaNegra/CartProviderMesaNegra'; 
+
+
 function App() {
   return (
     <Router>
@@ -86,7 +87,7 @@ function App() {
         <Route exact path="/babyBath" component={CartProviderBabyBath} />
         <Route exact path="/babySpoons" component={CartProviderBabySpoons} />
         <Route exact path="/woodchair" component={WoodChair} />
-        <Route exact path="/mesanegra" component={MesaNegra} />
+        <Route exact path="/mesanegra" component={CartProviderMesaNegra} />
 
       </Switch>
       <Footer />

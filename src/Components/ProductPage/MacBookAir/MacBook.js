@@ -4,6 +4,7 @@ import { useCart } from 'react-use-cart'
 
 
 const MacBook = (props) => {
+   
     const { addItem } = useCart();
 
 
