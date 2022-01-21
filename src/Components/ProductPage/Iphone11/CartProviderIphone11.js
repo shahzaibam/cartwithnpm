@@ -1,16 +1,16 @@
 import React from 'react'
 import { CartProvider } from 'react-use-cart';
-import CortaCesped_Render from './CortaCesped_Render';
+import Iphone11_Render from './Iphone11_Render';
 
 
-const CartProviderCortaCesped = () => {
+const CartProviderIphone11 = () => {
     return ( 
         <div>
             <CartProvider>
-                <CortaCesped_Render/>
+                <Iphone11_Render/>
             </CartProvider>
         </div>
     )
 }
 
-export default CartProviderCortaCesped;
+export default CartProviderIphone11;

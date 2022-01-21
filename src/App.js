@@ -20,8 +20,8 @@ import UlyssenWatch from './Components/ProductPage/UlyssenWatch';
 import NikeShoes from './Components/ProductPage/NikeShoes';
 import MacBookAir2017 from './Components/ProductPage/MacBookAir2017';
 import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
-import LenovoThinkPad from './Components/ProductPage/LenovoThinkPad';
-import IPhone11black from './Components/ProductPage/IPhone11black';
+import CartProviderLenovo from './Components/ProductPage/LenovoThinkPad/CartProviderLenovo';
+import CartProviderIphone11 from './Components/ProductPage/Iphone11/CartProviderIphone11'
 import CartProviderBeautyHealth from './Components/Beauty&HealthCategory/CartProviderBeautyHealth';
 import CartProviderElectronics from './Components/Electronics/CartProviderElectronics';
 import CartProviderFurnitures from './Components/Furnitures/CartProviderFurnitures';
@@ -62,8 +62,8 @@ function App() {
         <Route exact path="/Nike" component={NikeShoes} />
         <Route exact path="/MacBookAir" component={MacBookAir2017} />
         <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
-        <Route exact path="/Lenovo" component={LenovoThinkPad} />
-        <Route exact path="/Iphone11" component={IPhone11black} />
+        <Route exact path="/Lenovo" component={CartProviderLenovo} />
+        <Route exact path="/Iphone11" component={CartProviderIphone11} />
         <Route exact path="/technology" component={CartProviderPhone} />
         <Route exact path="/BabyProducts" component={CartProviderBaby} />
         <Route exact path="/Beauty&Health" component={CartProviderBeautyHealth} />

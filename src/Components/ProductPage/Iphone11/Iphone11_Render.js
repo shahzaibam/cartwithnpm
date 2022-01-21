@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import Iphone11black from './IPhone11black'
-import CortaCespedData from './CortaCespedData'
+import Iphone11Data from './Iphone11Data'
 
 const Iphone11_Render = () => {
     return (     
@@ -11,9 +11,9 @@ const Iphone11_Render = () => {
                 <div className="row justify-content-center">
                 
                     {
-                        CortaCespedData.cortacespedcategories.map((item, index) => {
+                        Iphone11Data.cortacespedcategories.map((item, index) => {
                             return (
-                                <CortaCesped
+                                <Iphone11black
                                     img={item.img}
                                     title={item.title}
                                     desc={item.desc}

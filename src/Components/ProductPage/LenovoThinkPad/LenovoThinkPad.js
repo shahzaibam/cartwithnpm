@@ -57,4 +57,4 @@ const LenovoThinkPad = () => {
     )
 }
 
-export default LenovoThinkPad
+export default LenovoThinkPad;
