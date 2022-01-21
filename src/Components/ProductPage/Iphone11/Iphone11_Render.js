@@ -11,7 +11,7 @@ const Iphone11_Render = () => {
                 <div className="row justify-content-center">
                 
                     {
-                        Iphone11Data.cortacespedcategories.map((item, index) => {
+                        Iphone11Data.iphone11categories.map((item, index) => {
                             return (
                                 <Iphone11black
                                     img={item.img}

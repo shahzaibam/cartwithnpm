@@ -3,7 +3,7 @@ import { useCart } from 'react-use-cart'
 import { Link } from "react-router-dom";
 
 const BabyCart = (props) => {
-
+ 
     const { addItem } = useCart();
 
 
