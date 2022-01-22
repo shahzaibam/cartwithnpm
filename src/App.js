@@ -15,7 +15,7 @@ import CartProviderIph11max from './Components/ProductPage/Iph11max/CartProvider
 import CartProviderNokia from './Components/ProductPage/Nokia/CartProviderNokia';
 import CartProviderNote20 from './Components/ProductPage/Note20/CartProviderNote20';
 import CartProviderSnakeRing from './Components/ProductPage/SnakeRing/CartProviderSnakeRing';
-import SweatShirt from './Components/ProductPage/SweatShirt';
+import CartProviderSweatShirt from './Components/ProductPage/SweatShirt/CartProviderSweatShirt';
 import UlyssenWatch from './Components/ProductPage/UlyssenWatch';
 import CartProviderNikeShoes from './Components/ProductPage/NikeShoes/CartProviderNikeShoes';
 import CartProviderMacBook from './Components/ProductPage/MacBookAir/CartProviderMacBook';
@@ -42,7 +42,7 @@ import CartProviderPaletin from './Components/ProductPage/Paletin/CartProviderPa
 import CartProviderBabyBath from './Components/ProductPage/BabyBath/CartProviderBabyBath';
 import CartProviderBabySpoons from './Components/ProductPage/BabySpoons/CartProviderBabySpoons';
 import WoodChair from './Components/ProductPage/WoodChair';
-import CartProviderMesaNegra from './Components/ProductPage/MesaNegra/CartProviderMesaNegra'; 
+import CartProviderMesaNegra from './Components/ProductPage/MesaNegra/CartProviderMesaNegra';
 import CartProviderNikeSport from './Components/ProductPage/NikeSport/CartProviderNikeSport';
 
 
@@ -58,7 +58,7 @@ function App() {
         <Route exact path="/nokia3320" component={CartProviderNokia} />
         <Route exact path="/SamsungNote20" component={CartProviderNote20} />
         <Route exact path="/SnakeRing" component={CartProviderSnakeRing} />
-        <Route exact path="/SweatShirt" component={SweatShirt} />
+        <Route exact path="/SweatShirt" component={CartProviderSweatShirt} />
         <Route exact path="/UlyssenWatch" component={UlyssenWatch} />
         <Route exact path="/Nike" component={CartProviderNikeShoes} />
         <Route exact path="/MacBookAir" component={CartProviderMacBook} />
