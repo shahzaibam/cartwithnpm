@@ -3,14 +3,13 @@ const SingleSofa_Data = {
 
 
         {
-            id: 1,
-            img: "https://images.samsung.com/es/smartphones/galaxy-s21/buy/02_ImageCarousel/01_FamilyShot/S21_Family_KV_MO_img.jpg",
-            title : 'Samsung S20',
-            desc : 'Black Samsung S20', 
-            price : 899,
-            path : 'S20',
-            category : 'phone'
-        },
+            id: 12,
+            img: "https://image.made-in-china.com/202f0j10lrSGzsyKELkW/Modern-Luxury-Home-Fabric-Lounge-Living-Room-Furniture-Recliner-Sofa.jpg",
+            title : 'Single Sofa',
+            desc : 'Green Single Sofa', 
+            price : 99,
+            path : 'singlesofa'
+        }, 
         
     ] 
 

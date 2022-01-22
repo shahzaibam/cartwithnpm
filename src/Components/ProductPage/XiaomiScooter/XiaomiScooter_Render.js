@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Ulyssen from './XiaomiScooter';
-import Ulyssen_Data from './XiaomiScooter_Data';
+import XiaomiScooter from './XiaomiScooter';
+import XiaomiScooter_Data from './XiaomiScooter_Data';
 
 const XiaomiScooter_Render = () => {
     return (     
@@ -11,9 +11,9 @@ const XiaomiScooter_Render = () => {
                 <div className="row justify-content-center">
                 
                     {
-                        Ulyssen_Data.ulyssencategories.map((item, index) => {
+                        XiaomiScooter_Data.xiaomicategories.map((item, index) => {
                             return (
-                                <Ulyssen
+                                <XiaomiScooter
                                     img={item.img}
                                     title={item.title}
                                     desc={item.desc}

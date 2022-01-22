@@ -2,14 +2,13 @@ const XiaomiScooter_Data = {
     xiaomicategories: [
 
         {
-            id: 9,
-            img: "https://assets.adidas.com/images/w_600,f_auto,q_auto/3fc8bd3ba6294a13ba5da83500f40d24_9366/Buzo_Trifolio_Warm-Up_Crew_Gris_CY4573_01_laydown.jpg",
-            title : 'Adidas Sweatshirt',
-            desc : 'Gray Sweatshirt', 
-            price : 24.95,
-            path : 'Sweatshirt'
-
-        },
+            id: 10,
+            img: "https://www.backmarket.es/cdn-cgi/image/format=auto,quality=75,width=1920/https://d1eh9yux7w8iql.cloudfront.net/product_images/None_f130a79e-2477-4328-a59a-459bc2a3065f-thumb.jpg",
+            title : 'Xiaomi Mi Electric Scooter',
+            desc : 'Xiaomi Mi Electric Scooter Pro 2', 
+            price : 659,
+            path : 'XiaomiScooter'
+        },  
         
     ] 
 

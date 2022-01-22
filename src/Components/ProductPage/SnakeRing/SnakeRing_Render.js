@@ -11,7 +11,7 @@ const SnakeRing_Render = () => {
                 <div className="row justify-content-center">
                 
                     {
-                        SnakeRing_Data.singlesofacategories.map((item, index) => {
+                        SnakeRing_Data.SnakeRingcategories.map((item, index) => {
                             return (
                                 <SnakeRing
                                     img={item.img}
