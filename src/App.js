@@ -14,7 +14,7 @@ import CartProviderSamS20 from './Components/ProductPage/SamS20/CartProviderSamS
 import CartProviderIph11max from './Components/ProductPage/Iph11max/CartProviderIph11max';
 import CartProviderNokia from './Components/ProductPage/Nokia/CartProviderNokia';
 import CartProviderNote20 from './Components/ProductPage/Note20/CartProviderNote20';
-import SnakeRing from './Components/ProductPage/SnakeRing';
+import CartProviderSnakeRing from './Components/ProductPage/SnakeRing/CartProviderSnakeRing';
 import SweatShirt from './Components/ProductPage/SweatShirt';
 import UlyssenWatch from './Components/ProductPage/UlyssenWatch';
 import CartProviderNikeShoes from './Components/ProductPage/NikeShoes/CartProviderNikeShoes';
@@ -35,7 +35,7 @@ import CartProviderBaby from './Components/BabyProductCategory/CartProviderBaby'
 import SignUp from './Components/SignUp';
 import CartProviderBabyCart from './Components/ProductPage/BabyCart/CartProviderBabyCart'
 import CartProviderMulti from './Components/ProductPage/multi/CartProviderMulti';
-import SingleSofa from './Components/ProductPage/SingleSofa';
+import CartProviderSingleSofa from './Components/ProductPage/SingleSofa/CartProviderSingleSofa';
 import CartProviderCortaCesped from './Components/ProductPage/CortaCesped/CartProviderCortaCesped';
 import TravelBag from './Components/ProductPage/TravelBag';
 import CartProviderPaletin from './Components/ProductPage/Paletin/CartProviderPaletin';
@@ -57,7 +57,7 @@ function App() {
         <Route exact path="/Iphone11pmax" component={CartProviderIph11max} />
         <Route exact path="/nokia3320" component={CartProviderNokia} />
         <Route exact path="/SamsungNote20" component={CartProviderNote20} />
-        <Route exact path="/SnakeRing" component={SnakeRing} />
+        <Route exact path="/SnakeRing" component={CartProviderSnakeRing} />
         <Route exact path="/SweatShirt" component={SweatShirt} />
         <Route exact path="/UlyssenWatch" component={UlyssenWatch} />
         <Route exact path="/Nike" component={CartProviderNikeShoes} />
@@ -80,7 +80,7 @@ function App() {
         <Route exact path="/babyCart" component={CartProviderBabyCart} />
         <Route exact path="/nikeSport" component={CartProviderNikeSport} />
         <Route exact path="/multivitaminico" component={CartProviderMulti} />
-        <Route exact path="/singlesofa" component={SingleSofa} />
+        <Route exact path="/singlesofa" component={CartProviderSingleSofa} />
         <Route exact path="/Cortacesped" component={CartProviderCortaCesped} />
         <Route exact path="/travelBag" component={TravelBag} />
         <Route exact path="/paletin" component={CartProviderPaletin} />
