@@ -10,10 +10,10 @@ import {
   Link
 } from "react-router-dom";
 import HomeComponent from './Components/HomeComponent';
-import ProductpgS20 from './Components/ProductPage/ProductpgS20';
+import CartProviderSamS20 from './Components/ProductPage/SamS20/CartProviderSamS20';
 import CartProviderIph11max from './Components/ProductPage/Iph11max/CartProviderIph11max';
 import CartProviderNokia from './Components/ProductPage/Nokia/CartProviderNokia';
-import SamsungNote20Ultra from './Components/ProductPage/SamsungNote20Ultra';
+import CartProviderNote20 from './Components/ProductPage/Note20/CartProviderNote20';
 import SnakeRing from './Components/ProductPage/SnakeRing';
 import SweatShirt from './Components/ProductPage/SweatShirt';
 import UlyssenWatch from './Components/ProductPage/UlyssenWatch';
@@ -34,7 +34,6 @@ import CartProviderPhone from './Components/PhoneCategory/CartProviderPhone';
 import CartProviderBaby from './Components/BabyProductCategory/CartProviderBaby';
 import SignUp from './Components/SignUp';
 import CartProviderBabyCart from './Components/ProductPage/BabyCart/CartProviderBabyCart'
-// import CartProviderNikeShoes from './Components/ProductPage/NikeShoes/CartProviderNikeShoes';
 import CartProviderMulti from './Components/ProductPage/multi/CartProviderMulti';
 import SingleSofa from './Components/ProductPage/SingleSofa';
 import CartProviderCortaCesped from './Components/ProductPage/CortaCesped/CartProviderCortaCesped';
@@ -54,10 +53,10 @@ function App() {
       <NavBar />
       <Switch>
         <Route exact path="/" component={HomeComponent} />
-        <Route exact path="/S20" component={ProductpgS20} />
+        <Route exact path="/S20" component={CartProviderSamS20} />
         <Route exact path="/Iphone11pmax" component={CartProviderIph11max} />
         <Route exact path="/nokia3320" component={CartProviderNokia} />
-        <Route exact path="/SamsungNote20" component={SamsungNote20Ultra} />
+        <Route exact path="/SamsungNote20" component={CartProviderNote20} />
         <Route exact path="/SnakeRing" component={SnakeRing} />
         <Route exact path="/SweatShirt" component={SweatShirt} />
         <Route exact path="/UlyssenWatch" component={UlyssenWatch} />
