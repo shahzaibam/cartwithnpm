@@ -16,7 +16,7 @@ import CartProviderNokia from './Components/ProductPage/Nokia/CartProviderNokia'
 import CartProviderNote20 from './Components/ProductPage/Note20/CartProviderNote20';
 import CartProviderSnakeRing from './Components/ProductPage/SnakeRing/CartProviderSnakeRing';
 import CartProviderSweatShirt from './Components/ProductPage/SweatShirt/CartProviderSweatShirt';
-import UlyssenWatch from './Components/ProductPage/UlyssenWatch';
+import CartProviderUlyssen from './Components/ProductPage/UlyssenWatch/CartProviderUlysssen';
 import CartProviderNikeShoes from './Components/ProductPage/NikeShoes/CartProviderNikeShoes';
 import CartProviderMacBook from './Components/ProductPage/MacBookAir/CartProviderMacBook';
 import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
@@ -59,7 +59,7 @@ function App() {
         <Route exact path="/SamsungNote20" component={CartProviderNote20} />
         <Route exact path="/SnakeRing" component={CartProviderSnakeRing} />
         <Route exact path="/SweatShirt" component={CartProviderSweatShirt} />
-        <Route exact path="/UlyssenWatch" component={UlyssenWatch} />
+        <Route exact path="/UlyssenWatch" component={CartProviderUlyssen} />
         <Route exact path="/Nike" component={CartProviderNikeShoes} />
         <Route exact path="/MacBookAir" component={CartProviderMacBook} />
         <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
