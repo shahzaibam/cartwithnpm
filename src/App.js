@@ -19,7 +19,7 @@ import CartProviderSweatShirt from './Components/ProductPage/SweatShirt/CartProv
 import CartProviderUlyssen from './Components/ProductPage/UlyssenWatch/CartProviderUlysssen';
 import CartProviderNikeShoes from './Components/ProductPage/NikeShoes/CartProviderNikeShoes';
 import CartProviderMacBook from './Components/ProductPage/MacBookAir/CartProviderMacBook';
-import XiaomiMiScooter from './Components/ProductPage/XiaomiMiScooter';
+import CartProviderXiaomiScooter from './Components/ProductPage/XiaomiScooter/CartProviderXiaomiScooter';
 import CartProviderLenovo from './Components/ProductPage/LenovoThinkPad/CartProviderLenovo';
 import CartProviderIphone11 from './Components/ProductPage/Iphone11/CartProviderIphone11'
 import CartProviderBeautyHealth from './Components/Beauty&HealthCategory/CartProviderBeautyHealth';
@@ -62,7 +62,7 @@ function App() {
         <Route exact path="/UlyssenWatch" component={CartProviderUlyssen} />
         <Route exact path="/Nike" component={CartProviderNikeShoes} />
         <Route exact path="/MacBookAir" component={CartProviderMacBook} />
-        <Route exact path="/XiaomiScooter" component={XiaomiMiScooter} />
+        <Route exact path="/XiaomiScooter" component={CartProviderXiaomiScooter} />
         <Route exact path="/Lenovo" component={CartProviderLenovo} />
         <Route exact path="/Iphone11" component={CartProviderIphone11} />
         <Route exact path="/technology" component={CartProviderPhone} />
