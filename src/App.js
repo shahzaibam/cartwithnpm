@@ -37,7 +37,7 @@ import CartProviderBabyCart from './Components/ProductPage/BabyCart/CartProvider
 import CartProviderMulti from './Components/ProductPage/multi/CartProviderMulti';
 import CartProviderSingleSofa from './Components/ProductPage/SingleSofa/CartProviderSingleSofa';
 import CartProviderCortaCesped from './Components/ProductPage/CortaCesped/CartProviderCortaCesped';
-import TravelBag from './Components/ProductPage/TravelBag';
+import CartProviderTravelBag from './Components/ProductPage/TravelBag/CartProviderTravelBag';
 import CartProviderPaletin from './Components/ProductPage/Paletin/CartProviderPaletin';
 import CartProviderBabyBath from './Components/ProductPage/BabyBath/CartProviderBabyBath';
 import CartProviderBabySpoons from './Components/ProductPage/BabySpoons/CartProviderBabySpoons';
@@ -82,7 +82,7 @@ function App() {
         <Route exact path="/multivitaminico" component={CartProviderMulti} />
         <Route exact path="/singlesofa" component={CartProviderSingleSofa} />
         <Route exact path="/Cortacesped" component={CartProviderCortaCesped} />
-        <Route exact path="/travelBag" component={TravelBag} />
+        <Route exact path="/travelBag" component={CartProviderTravelBag} />
         <Route exact path="/paletin" component={CartProviderPaletin} />
         <Route exact path="/babyBath" component={CartProviderBabyBath} />
         <Route exact path="/babySpoons" component={CartProviderBabySpoons} />
