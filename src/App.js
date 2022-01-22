@@ -39,7 +39,7 @@ import CartProviderMulti from './Components/ProductPage/multi/CartProviderMulti'
 import SingleSofa from './Components/ProductPage/SingleSofa';
 import CartProviderCortaCesped from './Components/ProductPage/CortaCesped/CartProviderCortaCesped';
 import TravelBag from './Components/ProductPage/TravelBag';
-import Paletin from './Components/ProductPage/Paletin';
+import CartProviderPaletin from './Components/ProductPage/Paletin/CartProviderPaletin';
 import CartProviderBabyBath from './Components/ProductPage/BabyBath/CartProviderBabyBath';
 import CartProviderBabySpoons from './Components/ProductPage/BabySpoons/CartProviderBabySpoons';
 import WoodChair from './Components/ProductPage/WoodChair';
@@ -84,7 +84,7 @@ function App() {
         <Route exact path="/singlesofa" component={SingleSofa} />
         <Route exact path="/Cortacesped" component={CartProviderCortaCesped} />
         <Route exact path="/travelBag" component={TravelBag} />
-        <Route exact path="/paletin" component={Paletin} />
+        <Route exact path="/paletin" component={CartProviderPaletin} />
         <Route exact path="/babyBath" component={CartProviderBabyBath} />
         <Route exact path="/babySpoons" component={CartProviderBabySpoons} />
         <Route exact path="/woodchair" component={WoodChair} />
