@@ -41,7 +41,7 @@ import CartProviderTravelBag from './Components/ProductPage/TravelBag/CartProvid
 import CartProviderPaletin from './Components/ProductPage/Paletin/CartProviderPaletin';
 import CartProviderBabyBath from './Components/ProductPage/BabyBath/CartProviderBabyBath';
 import CartProviderBabySpoons from './Components/ProductPage/BabySpoons/CartProviderBabySpoons';
-import WoodChair from './Components/ProductPage/WoodChair';
+import CartProviderWoodChair from './Components/ProductPage/WoodChair/CartProviderWoodChair';
 import CartProviderMesaNegra from './Components/ProductPage/MesaNegra/CartProviderMesaNegra';
 import CartProviderNikeSport from './Components/ProductPage/NikeSport/CartProviderNikeSport';
 
@@ -86,7 +86,7 @@ function App() {
         <Route exact path="/paletin" component={CartProviderPaletin} />
         <Route exact path="/babyBath" component={CartProviderBabyBath} />
         <Route exact path="/babySpoons" component={CartProviderBabySpoons} />
-        <Route exact path="/woodchair" component={WoodChair} />
+        <Route exact path="/woodchair" component={CartProviderWoodChair} />
         <Route exact path="/mesanegra" component={CartProviderMesaNegra} />
 
       </Switch>
