@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 import HomeComponent from './Components/HomeComponent';
 import ProductpgS20 from './Components/ProductPage/ProductpgS20';
-import ProductIphone11promax from './Components/ProductPage/ProductIphone11promax';
+import CartProviderIph11max from './Components/ProductPage/Iph11max/CartProviderIph11max';
 import CartProviderNokia from './Components/ProductPage/Nokia/CartProviderNokia';
 import SamsungNote20Ultra from './Components/ProductPage/SamsungNote20Ultra';
 import SnakeRing from './Components/ProductPage/SnakeRing';
@@ -55,7 +55,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomeComponent} />
         <Route exact path="/S20" component={ProductpgS20} />
-        <Route exact path="/Iphone11pmax" component={ProductIphone11promax} />
+        <Route exact path="/Iphone11pmax" component={CartProviderIph11max} />
         <Route exact path="/nokia3320" component={CartProviderNokia} />
         <Route exact path="/SamsungNote20" component={SamsungNote20Ultra} />
         <Route exact path="/SnakeRing" component={SnakeRing} />
