@@ -49,7 +49,7 @@ import CartProviderNikeSport from './Components/ProductPage/NikeSport/CartProvid
 function App() {
   return (
     <Router>
-
+ 
       <NavBar />
       <Switch>
         <Route exact path="/" component={HomeComponent} />
